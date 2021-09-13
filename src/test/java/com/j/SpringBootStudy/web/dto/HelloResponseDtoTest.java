@@ -1,4 +1,4 @@
-package com.j.SpringBootStudy.web.DTO;
+package com.j.SpringBootStudy.web.dto;
 
 
 import org.junit.Test;

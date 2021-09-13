@@ -1,6 +1,6 @@
 package com.j.SpringBootStudy.web;
 
-import com.j.SpringBootStudy.web.DTO.HelloResponseDto;
+import com.j.SpringBootStudy.web.dto.HelloResponseDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
