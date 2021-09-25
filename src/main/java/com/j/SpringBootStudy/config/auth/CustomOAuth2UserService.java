@@ -3,6 +3,7 @@ package com.j.SpringBootStudy.config.auth;
 
 
 import com.j.SpringBootStudy.config.auth.dto.OAuthAttributes;
+import com.j.SpringBootStudy.config.auth.dto.SessionUser;
 import com.j.SpringBootStudy.domain.user.User;
 import com.j.SpringBootStudy.domain.user.UserRepository;
 import lombok.RequiredArgsConstructor;
@@ -53,3 +54,4 @@ public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequ
 
         return userRepository.save(user);
     }
+}
